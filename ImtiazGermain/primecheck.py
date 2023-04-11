@@ -1,6 +1,6 @@
 from sympy import isprime
 
-class PrimeCheck:
+class primecheck:
     @staticmethod
     def isgermainprime(n):
         # Check if n is a prime number
