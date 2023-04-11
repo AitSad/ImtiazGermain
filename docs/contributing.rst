@@ -1,16 +1,16 @@
-Contributing to DeVrouw
+Contributing to ImtiazGermain
 ==============================
 
-Thank you for your interest in contributing to DeVrouw! We welcome contributions from everyone.
+Thank you for your interest in contributing to ImtiazGermain! We welcome contributions from everyone.
 
 Before you start, please read our `Code of Conduct <https://raw.githubusercontent.com/AitSad/.github/main/CODE_OF_CONDUCT.md>`_ to ensure that you understand our expectations for behavior.
 
 How to Contribute
 -----------------
 
-Here are the steps to follow to contribute to DeVrouw:
+Here are the steps to follow to contribute to ImtiazGermain:
 
-1. Fork the DeVrouw repository on GitHub.
+1. Fork the ImtiazGermain repository on GitHub.
 2. Create a new branch for your contribution.
 3. Make your changes to the code.
 4. Write tests for your changes.
@@ -23,9 +23,9 @@ Please keep in mind that we may ask you to make changes to your pull request bef
 Reporting Issues
 ----------------
 
-If you encounter a problem with DeVrouw or have a feature request, please open an issue on our `GitHub issue tracker <https://github.com/AitSad/DeVrouw/issues>`_.
+If you encounter a problem with ImtiazGermain or have a feature request, please open an issue on our `GitHub issue tracker <https://github.com/AitSad/ImtiazGermain/issues>`_.
 
-In your issue, please provide as much detail as possible about the problem or feature request. Include the version of DeVrouw you are using, any relevant code samples or error messages, and steps to reproduce the problem.
+In your issue, please provide as much detail as possible about the problem or feature request. Include the version of ImtiazGermain you are using, any relevant code samples or error messages, and steps to reproduce the problem.
 
 Code of Conduct
 ---------------
