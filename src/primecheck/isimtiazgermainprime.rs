@@ -1,4 +1,4 @@
-fn is_imtiaz_germain_prime(n: u64) -> bool {
+fn isimtiazgermainprime(n: u64) -> bool {
     // Check if n is a Sophie Germain prime
     let p = (n - 1) / 2;
     if !is_prime(n) || !is_prime(p) || !is_prime(2 * p + 1) {
