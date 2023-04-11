@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ImtiazGermain 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="canonical" href="https://imtiazgermain.readthedocs.io/en/latest/index.html" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            ImtiazGermain
+          </a>
+              <div class="version">
+                latest
+              </div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-contributing">Contributing to ImtiazGermain</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-api_reference">API Reference</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">ImtiazGermain</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">ImtiazGermain 0.1 documentation</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/AitSad/ImtiazGermain/blob/main/docs/index" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="imtiazgermain-documentation">
+<h1>ImtiazGermain Documentation<a class="headerlink" href="#imtiazgermain-documentation" title="Permalink to this heading"></a></h1>
+<div class="toctree-wrapper compound">
+<span id="document-installation"></span><section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this heading"></a></h2>
+<section id="requirements">
+<h3>Requirements<a class="headerlink" href="#requirements" title="Permalink to this heading"></a></h3>
+<p>ImtiazGermain requires the following:</p>
+<ul class="simple">
+<li><p>Python 3.6+</p></li>
+<li><p>Sympy</p></li>
+<li><p>Rust (no need for Python or Sympy)</p></li>
+</ul>
+</section>
+<section id="installation-with-pip">
+<h3>Installation with pip<a class="headerlink" href="#installation-with-pip" title="Permalink to this heading"></a></h3>
+<p>ImtiazGermain can be installed using pip:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>ImtiazGermain
+</pre></div>
+</div>
+</section>
+<section id="installation-from-source">
+<h3>Installation from source<a class="headerlink" href="#installation-from-source" title="Permalink to this heading"></a></h3>
+<p>To install ImtiazGermain from source, follow these steps:</p>
+<ol class="arabic">
+<li><p>Clone the repository:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/AitSad/ImtiazGermain.git
+</pre></div>
+</div>
+</li>
+<li><p>Navigate to the repository directory:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>ImtiazGermain
+</pre></div>
+</div>
+</li>
+<li><p>Install the package:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>.
+</pre></div>
+</div>
+<p>This will install the package and its dependencies.</p>
+<p>Alternatively, you can install the package in development mode:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.
+</pre></div>
+</div>
+<p>This will install the package in editable mode, so changes you make to the code will be immediately reflected.</p>
+<p>Note: You may need to use <cite>sudo</cite> to install the package globally on your system.</p>
+</li>
+</ol>
+</section>
+<section id="installation-from-cargo">
+<h3>Installation from cargo<a class="headerlink" href="#installation-from-cargo" title="Permalink to this heading"></a></h3>
+<p>You can use the cargo module in rust, to load ImtiazGermain as a crate as following:</p>
+<div class="highlight-toml notranslate"><div class="highlight"><pre><span></span><span class="k">[dependencies]</span>
+<span class="n">ImtiazGermain</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;0.1.1&quot;</span>
+</pre></div>
+</div>
+</section>
+<section id="upgrade">
+<h3>Upgrade<a class="headerlink" href="#upgrade" title="Permalink to this heading"></a></h3>
+<p>To upgrade ImtiazGermain to the latest version, use pip:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>ImtiazGermain
+</pre></div>
+</div>
+</section>
+</section>
+<span id="document-contributing"></span><section id="contributing-to-imtiazgermain">
+<h2>Contributing to ImtiazGermain<a class="headerlink" href="#contributing-to-imtiazgermain" title="Permalink to this heading"></a></h2>
+<p>Thank you for your interest in contributing to ImtiazGermain! We welcome contributions from everyone.</p>
+<p>Before you start, please read our <a class="reference external" href="https://raw.githubusercontent.com/AitSad/.github/main/CODE_OF_CONDUCT.md">Code of Conduct</a> to ensure that you understand our expectations for behavior.</p>
+<section id="how-to-contribute">
+<h3>How to Contribute<a class="headerlink" href="#how-to-contribute" title="Permalink to this heading"></a></h3>
+<p>Here are the steps to follow to contribute to ImtiazGermain:</p>
+<ol class="arabic simple">
+<li><p>Fork the ImtiazGermain repository on GitHub.</p></li>
+<li><p>Create a new branch for your contribution.</p></li>
+<li><p>Make your changes to the code.</p></li>
+<li><p>Write tests for your changes.</p></li>
+<li><p>Ensure that all tests pass by running <cite>pytest</cite> in the root directory.</p></li>
+<li><p>Update the documentation to reflect your changes.</p></li>
+<li><p>Submit a pull request.</p></li>
+</ol>
+<p>Please keep in mind that we may ask you to make changes to your pull request before we merge it. We may also ask you to add more tests or documentation.</p>
+</section>
+<section id="reporting-issues">
+<h3>Reporting Issues<a class="headerlink" href="#reporting-issues" title="Permalink to this heading"></a></h3>
+<p>If you encounter a problem with ImtiazGermain or have a feature request, please open an issue on our <a class="reference external" href="https://github.com/AitSad/ImtiazGermain/issues">GitHub issue tracker</a>.</p>
+<p>In your issue, please provide as much detail as possible about the problem or feature request. Include the version of ImtiazGermain you are using, any relevant code samples or error messages, and steps to reproduce the problem.</p>
+</section>
+<section id="id1">
+<h3>Code of Conduct<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h3>
+<p>Please note that this project follows a <a class="reference external" href="https://raw.githubusercontent.com/AitSad/.github/main/CODE_OF_CONDUCT.md">Code of Conduct</a>. By participating in this project you agree to abide by its terms.</p>
+</section>
+</section>
+<span id="document-api_reference"></span><section id="module-ImtiazGermain">
+<span id="api-reference"></span><h2>API Reference<a class="headerlink" href="#module-ImtiazGermain" title="Permalink to this heading"></a></h2>
+</section>
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Aitzaz Imtiaz
+      <span class="commit">Revision <code>20eb5169</code>.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    and documentation built by <a href="https://github.com/AitSad">AitSad</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: latest
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="/en/latest/">latest</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>Downloads</dt>
+        
+          <dd><a href="//imtiazgermain.readthedocs.io/_/downloads/en/latest/htmlzip/">html</a></dd>
+        
+      </dl>
+      <dl>
+        
+        <dt>On Read the Docs</dt>
+          <dd>
+            <a href="//readthedocs.org/projects/imtiazgermain/?fromdocs=imtiazgermain">Project Home</a>
+          </dd>
+          <dd>
+            <a href="//readthedocs.org/builds/imtiazgermain/?fromdocs=imtiazgermain">Builds</a>
+          </dd>
+      </dl>
+    </div>
+  </div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
