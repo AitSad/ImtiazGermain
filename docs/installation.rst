@@ -22,7 +22,7 @@ ImtiazGermain can be installed using pip:
 Installation from source
 ------------------------
 
-To install DeVrouw from source, follow these steps:
+To install ImtiazGermain from source, follow these steps:
 
 1. Clone the repository:
 
@@ -34,7 +34,7 @@ To install DeVrouw from source, follow these steps:
 
    .. code-block:: bash
 
-      $ cd devrouw
+      $ cd ImtiazGermain
 
 3. Install the package:
 
@@ -68,9 +68,9 @@ You can use the cargo module in rust, to load ImtiazGermain as a crate as follow
 Upgrade
 -------
 
-To upgrade DeVrouw to the latest version, use pip:
+To upgrade ImtiazGermain to the latest version, use pip:
 
 .. code-block:: bash
 
-   $ pip install --upgrade devrouw
+   $ pip install --upgrade ImtiazGermain
 
