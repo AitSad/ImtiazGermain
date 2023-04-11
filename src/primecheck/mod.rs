@@ -1,2 +1,2 @@
-pub mod caesar;
-pub mod vigenere;
+pub mod isgermainprime;
+pub mod isimtiazgermainprime;
