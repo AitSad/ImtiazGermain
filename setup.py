@@ -11,7 +11,7 @@ setup(
     description="A Python library for checking if a number is a Imtiaz-Germain and Germain prime or not",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://devrouw.readthedocs.io/",
+    url="https://ImtiazGermain.readthedocs.io/",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
