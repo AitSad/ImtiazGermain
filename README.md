@@ -69,3 +69,14 @@ fn main() {
     }
 }
 ```
+
+You can use python as follows:
+```python
+import ImtiazGermain.primecheck as pm
+
+pc = pm.primecheck()
+print(pc.isgermainprime(2))    # True
+print(pc.isimtiazgermainprime(3))    # True
+print(pc.isgermainprime(5)) #True
+print(pc.isgermainprime(7))    # True
+```
