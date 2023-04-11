@@ -1,4 +1,4 @@
-fn is_germain_prime(n: u64) -> bool {
+fn isgermainprime(n: u64) -> bool {
     // Check if n is a prime number
     if !is_prime(n) {
         return false;
