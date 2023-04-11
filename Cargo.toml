@@ -1,0 +1,11 @@
+[package]
+name = "ImtiazGermain"
+version = "0.1.1"
+authors = ["Aitzaz Imtiaz <aitzazimtiaz855@gmail.com>"]
+repository = "https://github.com/AitSad/SadieFish"
+edition = "2018"
+description = "A Rust library that checks if a number is a Germain and Imtiaz-Germain prime or not"
+readme = "README.md"
+license = "MIT"
+
+[workspace]
