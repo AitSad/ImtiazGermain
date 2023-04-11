@@ -19,6 +19,6 @@ pub use ImtiazGermain_primecheck::*;
 
 // Declare features for the various encryption algorithms and utilities
 #[cfg(not(test))] // Only include this section in non-test builds
-#[cfg(any(feature = "isprime", feature = "isgermainprime", feature="isimtiazgermainprime"))]
+#[cfg(any(feature = "isgermainprime", feature="isimtiazgermainprime"))]
 #[cfg(not(feature = "default"))]
 pub use ImtiazGermain_primecheck::*;
