@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="ImtiazGermain",
-    version="0.1.1",
+    version="0.1.2",
     author="Aitzaz Imtiaz",
     author_email="aitzazimtiaz855@gmail.com",
     description="A Python library for checking if a number is a Imtiaz-Germain and Germain prime or not",
