@@ -50,7 +50,7 @@ To use ImtiazGermain in your Rust code, import the necessary modules:
 use ImtiazGermain::primecheck::{isgermainprime, isimtiazgermainprime};
 ```
 
-Then, call the desired encryption or utility function. For example, to encrypt a message using the Caesar cipher:
+Then, call the desiredfunction. For example, to check if a number is ImtiazGermain or not:
 
 ```rust
 use std::io;
